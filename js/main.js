@@ -31,3 +31,7 @@ function displayResultMessage(result) {
   Modal.message.innerText = message
   Modal.open()
 }
+
+inputWeight.oninput = () => AlertError.close()
+
+inputHeight.oninput = () => AlertError.close()
